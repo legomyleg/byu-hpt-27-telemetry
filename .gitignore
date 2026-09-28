@@ -1,0 +1,19 @@
+.DS_Store
+
+# Unreal Engine generated files
+DerivedDataCache/
+Intermediate/
+Saved/
+Binaries/
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Unreal local/user files
+*.sln
+.vs/
+.vscode/
+
+# Logs
+logs/*
