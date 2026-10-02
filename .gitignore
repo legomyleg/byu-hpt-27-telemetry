@@ -17,3 +17,6 @@ Binaries/
 
 # Logs
 logs/*
+
+# Build
+build/

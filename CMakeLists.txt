@@ -17,8 +17,15 @@ FetchContent_MakeAvailable(doctest)
 
 add_executable(hpt_tests
     tests/test_main.cpp
+    src/hpt/data/sensor_check.cpp
 )
+target_include_directories(hpt_tests PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
 
 target_link_libraries(hpt_tests PRIVATE
     doctest::doctest
 )
+
+add_test(NAME hpt_tests COMMAND hpt_tests)
