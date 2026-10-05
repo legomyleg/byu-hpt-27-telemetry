@@ -18,5 +18,8 @@ Binaries/
 # Logs
 logs/*
 
-# Build
+# LSP Stuff
+.clangd
+
+# Build directories
 build/
