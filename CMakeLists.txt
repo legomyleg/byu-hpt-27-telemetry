@@ -23,7 +23,7 @@ set_target_properties(doctest_with_main PROPERTIES
 
 add_executable(hpt_tests
     tests/test_main.cpp
-    src/hpt/data/sensor_check.cpp
+    src/data/sensor_check.cpp
 )
 target_include_directories(hpt_tests PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/include
